@@ -1,0 +1,7 @@
+﻿fastapi 
+numpy
+pandas
+uvicorn
+pyarrow
+fastparquet
+scikit-learn
