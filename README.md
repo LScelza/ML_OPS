@@ -34,7 +34,7 @@ Se realizó la extracción, transformación y carga (ETL) de los tres conjuntos 
 En esta fase del proyecto se realiza la extracción de datos, a fin de familiarizarse con ellos y comenzar con la etapa de limpieza de datos que nos permita el correcto entedimiento. Terminada la limpieza se generará el conjunto de datos para la siguiente fase, estos se guardaron en formato parquet. 
 
 
-Los detalles del ETL para cada Dataset se puede ver en [ETL](https://github.com/LScelza/ML_OPS/tree/main/ETL)
+Los detalles del ETL para cada Dataset se puede ver en [ETL](https://github.com/LScelza/ML_OPS/tree/master/ETL)
   
 ## Feature engineering
 En esta etapa se realizo el analisis de sentimientos a los reviews de los usuarios. Para ello se creó una nueva columna llamada 'sentiment_analysis' que reemplaza a la columna que contiene los reviews donde clasifica los sentimientos de los comentarios con la siguiente escala:
@@ -46,7 +46,7 @@ En esta etapa se realizo el analisis de sentimientos a los reviews de los usuari
 Todos los detalles del desarrollo se pueden ver en la Jupyter Notebook [Analisis de sentimientos](./ETL/users_review.ipynb)
 
 ## EDA
-Se lleva a cabo el analisis exploratorio de los datos, identificando patrones y tendencias de los juegos y géneros mas recomendados por los usuarios, a parte de identificar outliers, el codigo utilizado se puede visualizar en [EDA](https://github.com/LScelza/ML_OPS/tree/main/EDA)
+Se lleva a cabo el analisis exploratorio de los datos, identificando patrones y tendencias de los juegos y géneros mas recomendados por los usuarios, a parte de identificar outliers, el codigo utilizado se puede visualizar en [EDA](https://github.com/LScelza/ML_OPS/tree/master/EDA)
 
 ## API
 * Para su desarrollo se utilizó FastAPI, dicho Framework permite que la API pueda ser consumida desde la WEB, la misma consta de 6 endpoints:
@@ -64,7 +64,7 @@ def developer( desarrollador : str ): Cantidad de items y porcentaje de contenid
 
 
 
-los detalles de codigo se encuentran en [API](https://github.com/LScelza/ML_OPS/tree/main/main.py)
+los detalles de codigo se encuentran en [API](https://github.com/LScelza/ML_OPS/tree/master/main.py)
 
 ## Modelo de aprendizaje automático
 El modelo se basa en la similitud del coseno, el modelo tiene una relación ítem-ítem, esto es, se toma un juego y en base a que tan similar es ese juego con el resto de los juegos se recomiendan similares. 
