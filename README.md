@@ -71,6 +71,6 @@ El modelo se basa en la similitud del coseno, el modelo tiene una relación íte
 
 ## Deployment
 Para el deploy de la API se seleccionó la plataforma Render, a continuacion el link donde se puede ver el funcionamiento de la API desplegado
-[Deploy](completar)
+[Deploy](https://ml-ops-h2z6.onrender.com)
 
  
